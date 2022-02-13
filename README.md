@@ -4,11 +4,11 @@ This portfolio is a small project using HTML / CSS and bootstrap. I will be usin
 
 [Live Heroku Deployment] (https://portfolio-ericv.herokuapp.com)
 
+
 ## Technologies Used
 
 * HTML
 * CSS
-
 
 ## Installation
 
