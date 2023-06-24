@@ -1,0 +1,117 @@
+* {
+    /*font-size: 20px;*/
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: rgb(252, 230, 219);
+}
+
+section {
+    background-color: rgb(252, 230, 219);
+    border: solid black 1px;
+    height: 500px
+}
+
+nav {
+    display: flex;
+    background-color: beige;
+    color: black;
+    height: 100px;
+    justify-content: flex-end;
+    background-color: rgb(252, 230, 219);
+    color: black;
+}
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+li {
+    display: flex;
+    text-decoration: none;
+}
+
+.profile {
+    height: 700px;
+    font-size: 30px;
+    background-color: rgb(252, 230, 219);
+}
+
+.profile img {
+    width: 30%;
+    border-radius: 100px;
+    height: 525px;
+    margin-left: 30px;
+}
+
+.profile-section2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(252, 230, 219);
+    color: black;
+}
+
+.profile-section2 h1 {
+    margin-left: 200px;
+    font-size: 70px;
+    text-decoration-line: underline;
+    margin-block: auto;
+}
+
+.AboutMe {
+    font-size: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 230, 219);
+}
+
+.AboutMe h1 {
+    margin-left: 55px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 45px;
+    color: black;
+}
+
+.Projects {
+    font-size: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 230, 219);
+}
+
+.Projects h1 {
+    margin-left: 37px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 45px;
+    color: black;
+}
+
+.Contact {
+    font-size: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 230, 219);
+}
+
+.Contact h1 {
+    margin-left: 37px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 45px;
+    color: black;
+}
+
+
