@@ -5,11 +5,12 @@
 
 body {
     background-color: rgb(252, 230, 219);
+    padding: 0;
+    margin: 0 auto;
 }
 
 section {
     background-color: rgb(252, 230, 219);
-    border: solid black 1px;
     height: 500px
 }
 
@@ -19,8 +20,8 @@ nav {
     color: black;
     height: 100px;
     justify-content: flex-end;
-    background-color: rgb(252, 230, 219);
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 
@@ -41,7 +42,7 @@ li {
 .profile {
     height: 700px;
     font-size: 30px;
-    background-color: rgb(252, 230, 219);
+    background-color: black;
 }
 
 .profile img {
@@ -55,8 +56,8 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(252, 230, 219);
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .profile-section2 h1 {
@@ -68,30 +69,30 @@ li {
 
 .AboutMe {
     font-size: 40px;
-    width: 20%;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: rgb(252, 230, 219);
 }
 
 .AboutMe h1 {
-    margin-left: 55px;
     text-align: center;
     font-weight: 500;
     font-size: 45px;
     color: black;
+    margin-left: 30px;
 }
 
 .Projects {
     font-size: 40px;
-    width: 20%;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: rgb(252, 230, 219);
+    justify-content: space-around;
 }
 
 .Projects h1 {
-    margin-left: 37px;
     text-align: center;
     font-weight: 500;
     font-size: 45px;
@@ -100,18 +101,53 @@ li {
 
 .Contact {
     font-size: 40px;
-    width: 20%;
+    width: 100%;
     display: flex;
     align-items: center;
-    background-color: rgb(252, 230, 219);
+    background-color: black;
+    flex-direction: column;
 }
 
 .Contact h1 {
-    margin-left: 37px;
     text-align: center;
     font-weight: 500;
     font-size: 45px;
-    color: black;
+    color: white;
 }
 
+.cards img {
+    width: 280px;
+    height: 250px;
+    box-shadow: 5px 5px 28px;
+    margin: 25px;
+}
 
+.project-containers {
+    display: flex;
+}
+
+.Contact a {
+   font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer.Contact {
+    height: 250px;
+}
+
+.socials {
+    display: flex;
+    margin: 30px;
+}
+
+.socials1 {
+    padding: 20px;
+}
+
+footer.Contact {
+    height: 280px;
+}
