@@ -174,3 +174,83 @@ footer.Contact {
     color: white;
     font-size: 18px;
 }
+
+@media screen and (max-width: 900px) {
+    .profile {
+        width: max-content;
+    }
+
+    section {
+        width: max-content;
+    }
+
+    .profile-section2 h1 {
+        margin-left: 108px;
+        font-size: 44px;
+        text-decoration-line: underline;
+        margin-block: auto;
+        width: auto;
+    }
+
+    a {
+        font-size: 25px;
+    }
+
+    .profile-section2 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: black;
+        color: white;
+        width: 950px;
+    }
+
+    .profile {
+        width: 950px;
+    }
+
+    .AboutMe p {
+        font-size: 28px;
+    }
+
+    .AboutMe {
+        width: 950px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(252, 230, 219);
+        flex-direction: column;
+        height: 362px;
+    }
+
+    .Projects {
+        width: 950px;
+        display: flex;
+        height: 950px;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .project-containers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer.Contact {
+        width: 950px;
+    }
+
+    .Contact h1 {
+        font-size: 40px;
+    }
+
+    footer.Contact p {
+        font-size: 25px;
+    }
+
+    .socials1 {
+        padding: 15px;
+    }
+}
