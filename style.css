@@ -138,9 +138,17 @@ li {
     margin: 25px;
 }
 
+.cards-project1 img {
+    width: 280px;
+    height: 250px;
+    box-shadow: 15px 20px 30px black;
+    margin: 25px;
+}
+
 .cards img:hover {
-    color: blue;
+    color: grey;
     cursor:pointer;
+    box-shadow: 15px 20px 30px black;
 }
 
 .project-containers {
